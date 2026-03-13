@@ -1,7 +1,9 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import FeaturedCards from "@/components/FeaturedCards";
-import GameModes from "@/components/GameModes";
+import SevenFates from "@/components/SevenFates";
+import LorePreview from "@/components/LorePreview";
+import Community from "@/components/Community";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -10,7 +12,9 @@ const Index = () => {
       <Navbar />
       <HeroSection />
       <FeaturedCards />
-      <GameModes />
+      <SevenFates />
+      <LorePreview />
+      <Community />
       <Footer />
     </div>
   );
