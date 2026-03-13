@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        display: ['Cinzel', 'serif'],
+        body: ['Raleway', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -46,6 +50,18 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        gold: {
+          DEFAULT: "hsl(var(--gold-glow))",
+        },
+        arcane: {
+          DEFAULT: "hsl(var(--arcane))",
+        },
+        frost: {
+          DEFAULT: "hsl(var(--frost))",
+        },
+        fire: {
+          DEFAULT: "hsl(var(--fire))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
